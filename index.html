@@ -25,10 +25,21 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Type</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" class="form-control" list="date"/>
+                    <datalist id="date">
+                        <option>Badiiy</option>
+                        <option>Biznes</option>
+                        <option>Diniy</option>
+                    </datalist>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            <div class="btn-group mt-3" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary">All</button>
+                <button type="button" class="btn btn-primary">Badiiy</button>
+                <button type="button" class="btn btn-primary">Biznes</button>
+                <button type="button" class="btn btn-primary">Diniy</button>
+              </div>
         </div>
     </body>
 </html>
