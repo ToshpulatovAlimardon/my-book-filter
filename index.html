@@ -16,11 +16,11 @@
             <form id="book-form">
                 <div class="mb-3">
                     <label class="form-label">Title</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" required class="form-control" id="title"/>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Type</label>
-                    <input type="text" class="form-control" list="date"/>
+                    <input type="text" required class="form-control" list="date" id="type"/>
                     <datalist id="date">
                         <option>Badiiy</option>
                         <option>Biznes</option>
@@ -37,9 +37,7 @@
               </div>
 
               <div class="block w-50 mt-2">
-                <ul class="list-group">
-                    <li class="list-group-item">Ikki eshik orasi <span class="float-end badge bg-info">Badiiy</span></li>
-                  </ul>
+                <ul class="list-group"></ul>
               </div>
         </div>
 
